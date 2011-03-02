@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+  xmlns:android="http://schemas.android.com/apk/res/android">
+	<item android:title="Add entry" android:orderInCategory="0" android:id="@+id/menu_add" android:icon="@android:drawable/ic_menu_add"></item>
+	<item android:title="Settings" android:id="@+id/menu_settings" android:icon="@android:drawable/ic_menu_preferences" ></item>
+	<item android:title="List entries" android:id="@+id/menu_list" android:icon="@android:drawable/ic_menu_agenda"></item>
+</menu>

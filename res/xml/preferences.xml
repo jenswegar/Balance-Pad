@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" android:title="Settings">
+	<PreferenceCategory>
+		<ListPreference android:title="Default currency" 
+						android:key="default_currency" 
+						android:dialogTitle="Default currency" 
+						android:persistent="true" 
+						android:entries="@array/currencies_array" 
+						android:entryValues="@array/currencies_array"></ListPreference>
+	</PreferenceCategory>
+</PreferenceScreen>
